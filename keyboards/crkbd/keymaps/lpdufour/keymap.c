@@ -60,9 +60,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                      KC_ESC, CKC_SPC, KC_TAB,    CKC_ENT, CKC_BSPC,  CKC_DEL
       ),
     [_SYM] = LAYOUT_split_3x6_3(
-        KC_NO, KC_GRV,  KC_LABK, KC_RABK, KC_DQUO, KC_DOT,     KC_NO, KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,
-        KC_NO, KC_EXLM, KC_LPRN, KC_RPRN, KC_QUOT, KC_COLN,    KC_NO, OS_LCTL, OS_LSFT, OS_LALT, OS_LGUI, KC_NO,
-        KC_NO, KC_CIRC, KC_LBRC, KC_RBRC, KC_LCBR, KC_RCBR,    KC_NO, KC_NO,   KC_NO,   OS_RALT, KC_NO,   KC_NO,
+        KC_NO, KC_TILD, KC_CIRC, KC_LBRC, KC_RBRC, KC_SLSH,    KC_NO, KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,
+        KC_NO, KC_COLN, KC_EXLM, KC_LPRN, KC_RPRN, KC_QUES,    KC_NO, OS_LCTL, OS_LSFT, OS_LALT, OS_LGUI, KC_NO,
+        KC_NO, KC_AT,   KC_HASH, KC_LCBR, KC_RCBR, KC_DLR,     KC_NO, KC_NO,   KC_NO,   OS_RALT, KC_NO,   KC_NO,
                                  KC_AMPR, KC_UNDS, KC_MINS,    XXXXXXX, KC_NO, KC_NO
     ),
     [_NUM] = LAYOUT_split_3x6_3(
